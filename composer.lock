@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6a558b1e0ef0e97a173fb33a6f451f83",
+    "content-hash": "50af6d6587bdfc6dc7cfe2856d3d4f62",
+    "packages": [
+        {
+            "name": "hisamu/php-xbase",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hisamu/php-xbase.git",
+                "reference": "5be81896c50cac893ea3db347a426137c4d9e9eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hisamu/php-xbase/zipball/5be81896c50cac893ea3db347a426137c4d9e9eb",
+                "reference": "5be81896c50cac893ea3db347a426137c4d9e9eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "XBase": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Erwin Kooi",
+                    "email": "info@cyane.nl"
+                },
+                {
+                    "name": "Luã de Souza",
+                    "email": "lsouza@codeinc.com.br"
+                }
+            ],
+            "description": "A simple parser for *.dbf files using PHP",
+            "homepage": "https://github.com/hisamu/php-xbase",
+            "keywords": [
+                "dbase",
+                "foxpro"
+            ],
+            "time": "2016-04-19 12:51:23"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
