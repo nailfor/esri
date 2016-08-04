@@ -5,8 +5,8 @@ use XBase\Table;
 
 class shpParser {
     public $path;
-    private $reader;
-    private $table;
+    protected $reader;
+    protected $table;
     
     //support types
     protected static $types = [
